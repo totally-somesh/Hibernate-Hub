@@ -21,6 +21,7 @@ public class Student {
 	private String lname;
      @Column(name="admissiondate")
 	private LocalDate admmision_date;
+	 @Enumerated(EnumType.STRING)
      @Column(name="course")
 	private Course type;
      @Column(name="fee")
